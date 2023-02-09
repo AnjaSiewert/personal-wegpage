@@ -6,7 +6,7 @@ body {
   font-family: Optima, monospace;
   background-color: rgb(166, 186, 247);
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   color: rgb(1, 9, 31);
 }
@@ -59,4 +59,12 @@ li {
 
 .reading:before {
   content: "📚";
+}
+
+h2 {
+  margin-left: 20px;
+  text-transform: uppercase;
+  width: 250px;
+  border: 5px solid black;
+  text-align: center;
 }
