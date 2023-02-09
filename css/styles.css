@@ -23,7 +23,7 @@ h1 {
   border: 2px solid black;
   border-radius: 7%;
   text-align: right;
-  margin-left: 20px;
+  margin-left: 80px;
   max-width: 50%;
   min-width: 10%;
   display: block;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .nav-link {
-  margin: 40px 23px;
+  margin: 40px 30px;
   text-decoration: none;
 }
 li {
@@ -64,7 +64,26 @@ li {
 h2 {
   margin-left: 20px;
   text-transform: uppercase;
-  width: 250px;
+  width: 300px;
   border: 5px solid black;
   text-align: center;
+}
+
+a[href^="https"] {
+  color: #fff;
+}
+
+p {
+  line-height: 0.3;
+  margin-left: 40px;
+}
+
+footer {
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.description {
+  margin-left: 40px;
 }
