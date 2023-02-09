@@ -37,3 +37,26 @@ h1 {
   margin: 40px 23px;
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
+
+.travelling:before {
+  content: "🌍";
+}
+
+.true-crime:before {
+  content: "🕵️‍♀️ ";
+}
+
+.longboard:before {
+  content: "🛹";
+}
+
+.salsa:before {
+  content: "👯";
+}
+
+.reading:before {
+  content: "📚";
+}
