@@ -70,11 +70,8 @@ h1 {
 }
 
 h2 {
-  margin-left: 20px;
   text-transform: uppercase;
-  width: 300px;
   border: 5px solid black;
-  text-align: center;
 }
 
 a[href^="https"] {
@@ -103,4 +100,13 @@ footer {
 .section-socials {
   display: flex;
   justify-content: space-evenly;
+}
+
+.h2-socials {
+  display: flex;
+  justify-content: center;
+}
+
+.fieldset-links {
+  border: none;
 }
