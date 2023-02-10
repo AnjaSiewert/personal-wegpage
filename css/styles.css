@@ -16,6 +16,10 @@ h1 {
   font-size: 50px;
   text-transform: uppercase;
 }
+.first-section {
+  border: 2px solid black;
+  display: flex;
+}
 
 .profile-picture {
   width: 210px;
@@ -34,9 +38,9 @@ h1 {
 }
 
 .nav-link {
-  display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
+
 li {
   list-style: none;
 }
