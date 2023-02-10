@@ -128,3 +128,11 @@ footer {
   margin-left: 20px;
   padding: 10px;
 }
+
+.fieldset-aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  padding-bottom: 20px;
+}
