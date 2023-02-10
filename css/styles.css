@@ -81,11 +81,6 @@ a[href^="https"] {
   color: #fff;
 }
 
-p {
-  line-height: 0.3;
-  margin-left: 40px;
-}
-
 footer {
   margin: 20px;
   font-size: 20px;
@@ -97,7 +92,8 @@ footer {
 }
 
 .fieldset-interests {
-  padding-top: 20px;
-  padding-bottom: 0px;
-  border: none;
+  border: 2px solid black;
+  display: flex;
+  justify-content: ;
+  align-items: center;
 }
