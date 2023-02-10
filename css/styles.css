@@ -75,10 +75,6 @@ h2 {
   _border: 5px solid black;
 }
 
-a[href^="https"] {
-  color: #fff;
-}
-
 footer {
   margin: 20px;
   font-size: 20px;
