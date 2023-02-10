@@ -5,10 +5,11 @@
 body {
   font-family: Optima, monospace;
   background-color: rgb(166, 186, 247);
-  margin: 0;
+  margin: auto;
   font-size: 18px;
   font-weight: normal;
   color: rgb(1, 9, 31);
+  width: 60%;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
 .first-section {
   border: 2px solid black;
   display: flex;
+  justify-content: space-around;
 }
 
 .profile-picture {
@@ -26,11 +28,8 @@ h1 {
   height: 300px;
   border: 2px solid black;
   border-radius: 7%;
-  text-align: right;
-  margin-left: 80px;
   max-width: 50%;
   min-width: 10%;
-  display: block;
 }
 
 .profile-picture:hover {
@@ -38,7 +37,6 @@ h1 {
 }
 
 .nav-link {
-  flex-direction: column;
 }
 
 li {
