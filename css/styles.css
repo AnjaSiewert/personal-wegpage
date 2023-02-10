@@ -136,3 +136,11 @@ footer {
   border: none;
   padding-bottom: 20px;
 }
+
+.h2-aboutme {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  border: 5px solid black;
+  width: 100%;
+}
