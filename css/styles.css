@@ -100,3 +100,8 @@ footer {
 .p-contact {
   margin-left: 10px;
 }
+
+.section-socials {
+  display: flex;
+  justify-content: space-evenly;
+}
