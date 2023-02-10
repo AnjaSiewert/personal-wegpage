@@ -34,9 +34,8 @@ h1 {
 }
 
 .nav-link {
-  border: 2 px solid black;
-  margin: 40px 30px;
-  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
 }
 li {
   list-style: none;
