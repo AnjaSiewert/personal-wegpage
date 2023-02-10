@@ -23,12 +23,10 @@ h1 {
 }
 
 .profile-picture {
-  width: 210px;
-  height: 300px;
+  width: 250px;
+  height: 350px;
   border: 2px solid black;
   border-radius: 7%;
-  max-width: 50%;
-  min-width: 10%;
 }
 
 .profile-picture:hover {
