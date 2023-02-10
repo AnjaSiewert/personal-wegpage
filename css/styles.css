@@ -92,7 +92,7 @@ footer {
 }
 
 .fieldset-interests {
-  border: 2px solid black;
+  border: none;
   display: flex;
   justify-content: ;
   align-items: center;
