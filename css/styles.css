@@ -28,6 +28,7 @@ h1 {
   border: 2px solid black;
   border-radius: 7%;
   box-shadow: 20px 20px 20px black;
+  margin-bottom: 30px;
 }
 
 .profile-picture:hover {
