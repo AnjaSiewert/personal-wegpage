@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Optima, monospace;
+  background-color: rgb(166, 186, 247);
+  margin: auto;
+  font-size: 18px;
+  font-weight: normal;
+  color: rgb(1, 9, 31);
+  width: 70%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__profile-picture {
+  width: 250px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 7%;
+  box-shadow: 20px 20px 20px black;
+  margin-bottom: 30px;
+}
+
+.header__profile-picture:hover {
+  border: 5px solid black;
+}
+
+.header__nav-link {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.interests__travelling:before {
+  content: "🌍";
+}
+
+.interests__true-crime:before {
+  content: "🕵️‍♀️ ";
+}
+
+.interests__:before {
+  content: "🛹";
+}
+
+.interests__salsa:before {
+  content: "👯";
+}
+
+.interests__reading:before {
+  content: "📚";
+}
+.interests__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+footer {
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.description {
+  margin-left: 40px;
+}
+
+.interests {
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.p-contact {
+  margin-left: 10px;
+}
+
+.section-socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.h2-socials {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  border: 3px solid black;
+}
+
+.fieldset-links {
+  border: none;
+}
+
+.interests__header {
+  text-transform: uppercase;
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 20px;
+  padding: 13px;
+  border-radius: 10%;
+}
+
+.contacts__header {
+  text-transform: uppercase;
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.fieldset-aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  padding-bottom: 20px;
+}
+
+.h2-aboutme {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  border: 3px solid black;
+  width: 100%;
+}
+
+.contacts__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.a-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
