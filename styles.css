@@ -6,12 +6,11 @@
 
 body {
   font-family: Optima, monospace;
-  background-color: rgb(166, 186, 247);
-  margin: auto;
+  background-color: var(--lightgreen);
   font-size: 1.1rem;
   font-weight: normal;
   color: rgb(1, 9, 31);
-  width: 70%;
+  _width: 70%;
 }
 
 h1 {
