@@ -4,12 +4,12 @@
 }
 
 .header__profile-picture {
-  width: 250px;
-  height: 350px;
+  width: 15rem;
+  height: 22rem;
   border: 2px solid black;
   border-radius: 7%;
-  box-shadow: 20px 20px 20px black;
-  margin-bottom: 30px;
+  box-shadow: 1.2rem 1.2rem 1.2rem black;
+  margin-bottom: 2.3rem;
 }
 
 .header__profile-picture:hover {
@@ -17,7 +17,7 @@
 }
 
 .header__nav-link {
-  font-size: 25px;
+  font-size: 1.6rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
