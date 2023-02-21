@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__profile-picture {
+  width: 250px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 7%;
+  box-shadow: 20px 20px 20px black;
+  margin-bottom: 30px;
+}
+
+.header__profile-picture:hover {
+  border: 5px solid black;
+}
+
+.header__nav-link {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+}

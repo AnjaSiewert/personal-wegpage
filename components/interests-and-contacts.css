@@ -1,0 +1,65 @@
+.interests {
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.interests__header {
+  text-transform: uppercase;
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 20px;
+  padding: 13px;
+  border-radius: 10%;
+}
+.interests__header {
+  text-transform: uppercase;
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 20px;
+  padding: 13px;
+  border-radius: 10%;
+}
+
+.interests__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+.interests__travelling:before {
+  content: "🌍";
+}
+
+.interests__true-crime:before {
+  content: "🕵️‍♀️ ";
+}
+
+.interests__:before {
+  content: "🛹";
+}
+
+.interests__salsa:before {
+  content: "👯";
+}
+
+.interests__reading:before {
+  content: "📚";
+}
+
+.contacts__header {
+  text-transform: uppercase;
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.contacts__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
