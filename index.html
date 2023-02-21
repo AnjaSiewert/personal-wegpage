@@ -10,14 +10,14 @@
   <body>
     <header>
       <h1>Anja Siewert</h1>
-      <section class="first-section">
+      <section class="header">
         <img
-          class="profile-picture"
+          class="header__profile-picture"
           src="images/4N8A6015.jpg"
           alt="profile-picture"
           width="150px"
         />
-        <nav class="nav-link">
+        <nav class="header__nav-link">
           <a href="#contacts">Contact details</a>
           <a href="#about-me">Social networks</a>
           <a href="#socials">About me</a>
@@ -25,33 +25,33 @@
       </section>
     </header>
     <main>
-      <fieldset class="fieldset-interests">
-        <h2 class="h2-my-interests">My interests</h2>
-        <ul class="interest-list">
-          <li class="travelling">Travelling</li>
-          <li class="true-crime">True Crime</li>
-          <li class="longboard">Longboard</li>
-          <li class="salsa">Salsa</li>
-          <li class="reading">Reading</li>
+      <fieldset class="interests">
+        <h2 class="interests__header">My interests</h2>
+        <ul class="interests__list">
+          <li class="interests__travelling">Travelling</li>
+          <li class="interests__true-crime">True Crime</li>
+          <li class="interests__longboard">Longboard</li>
+          <li class="interests__salsa">Salsa</li>
+          <li class="interests__reading">Reading</li>
         </ul>
-        <h2 class="h2-contact-details">Contact details</h2>
-        <address class="section-contact" id="contacts">
-          <a href="mailto:anja.siewert@live.de">anja.siewert@live.de</a> <br>
-          <a href="tel:+4917632910768">0176-32910768</a>
+        <h2 class="contacts__header">Contact details</h2>
+        <address class="contacts__section" id="contacts">
+          <a class="contacts__mail" href="mailto:anja.siewert@live.de">anja.siewert@live.de</a> <br>
+          <a class="contacts__phone" href="tel:+4917632910768">0176-32910768</a>
         </address>
       </fieldset>
-      <fieldset class="fieldset-links">
-        <h2 class="h2-socials">Social Networks</h2>
-        <a class="a-socials" href="https://github.com/AnjaSiewert"
+      <fieldset class="socials">
+        <h2 class="socials__header">Social Networks</h2>
+        <a class="socials__link" href="https://github.com/AnjaSiewert"
           >
-          <section id="socials"class="section-socials">
+          <section id="socials"class="socials__section">
           <img
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt="Github-logo"
             width="80px"
           />GitHub</a
         >
-        <a class="a-socials" href="https://de.linkedin.com/in/anja-siewert-42975118a"
+        <a class="socials__link" href="https://de.linkedin.com/in/anja-siewert-42975118a"
           ><img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAY1BMVEUCdLP///8Ab7GKr9GBqs8AcbL0+PsAaq7H2ukxg7v4+/0heLXm8PYAbbCQstQAZq16ps3O4O22z+OryN+dvdlyosoAY6xSksIpf7mlwdtrnshclsTA1uhMjL9akcLb6fIAW6ilrMpAAAADAElEQVRoge3b2ZajIBAAUCECihqiZjFumf//ytGkl0iVSc6E5XQP9ZCH1vYeEClAicg1yvN24yS2dXkTo/mnykRBHUUhmuoTPggWOQwmDje4FS7ZOUQ7w7Vzd5LrCY6c1vMt2MQmHgo8FTmJ9oUPuNhHG+oDppso9gPHAQ6wB5hN4R5mSqVd1xxt5a0VmKm2v2ZrWQ/KIUybhHxFTW0UGoXpkJO7KDMLMgazdOFOsnkXhUVJtDibz5wIzFrdJXIwXtkIfAQFJhZGR1hVQ5fkxgcLEGYdAvPUdF1DmMYITEYH8M4T7K2qowxrXE4epwuEKxePE3aTnXQgkQJFtjC7wpOEXLoX4+xaWjzxhesqLU4Tm/Suv66szCbXhj70UF5LzfvRzmRydbBHVToe2jFTbgd7czA/w1vbEeB3Y2oWlL7SOEzCjKooHbu2bbuhoerxPACFMxCPDn6yRRMn+UeXJ/kl2aXFgyKhffUl1+I7K7KUa8d6dWOHXuvhiSzb9SpHYa5dgSR3sH6snGGaVTCXzt38aa3fMwOrVi/tV+yPFmG1X2Pn/8VlE7A6P3AJ6dEJtgH4z+ahS8gWm4YYgLFR6TKwEdv7cJLofwGRIM/z+/Ar0cEiu4GRJXE3MDIDcgOTGDRsRzCsa0dwrrvm4LyPu2E4xQnaa8PVG0Ow3GfiOvAoRIo+1wcdMQPn43d/zBSWIcGrHiOwHBaXhbNNZIJtBN4ur4otZpR6ijIB588n2CS3AZ/1+1fARMlt3GPwqLARwjYeJ9AdsgZcgWfaOQbgCzLAyPWTZGMeriBcgNZlA64hDJfaZaPdZAMw8v5ZgG5T6hnZAIwMIn87DMeQvx0OVR1ga3BoXKGqA/zz4dC4QlUH+OfDoXH9OwzWyFxVdS75ImR/D3PtIPLRsOi1K3Ceaqegb9oYiFcPvn7Sr3mbGuAA/9+wt+0K3jZoeNuSQmx8rvUsWEYiC18CPg9RzRutdu43Wu1uW8t2rreWzZ/Z3jbTNX42001R1q62D54/VtH/AiThQD/d8ZMsAAAAAElFTkSuQmCC"
             alt="LinkedIN-logo"
@@ -60,8 +60,8 @@
         >
       </section>
       </fieldset>
-      <fieldset class="fieldset-aboutme" id="about-me">
-        <h2 class="h2-aboutme">About me</h2>
+      <fieldset class="aboutme" id="about-me">
+        <h2 class="aboutme__header">About me</h2>
         <p>
           Hi, I am Anja! I used to work in foreign trade and supply chain.
           Between my jobs I did a trip around the world and a journey to North

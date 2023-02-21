@@ -17,12 +17,12 @@ h1 {
   font-size: 50px;
   text-transform: uppercase;
 }
-.first-section {
+.header {
   display: flex;
   justify-content: space-around;
 }
 
-.profile-picture {
+.header__profile-picture {
   width: 250px;
   height: 350px;
   border: 2px solid black;
@@ -31,11 +31,11 @@ h1 {
   margin-bottom: 30px;
 }
 
-.profile-picture:hover {
+.header__profile-picture:hover {
   border: 5px solid black;
 }
 
-.nav-link {
+.header__nav-link {
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -43,26 +43,26 @@ h1 {
   width: 60%;
 }
 
-.travelling:before {
+.interests__travelling:before {
   content: "🌍";
 }
 
-.true-crime:before {
+.interests__true-crime:before {
   content: "🕵️‍♀️ ";
 }
 
-.longboard:before {
+.interests__:before {
   content: "🛹";
 }
 
-.salsa:before {
+.interests__salsa:before {
   content: "👯";
 }
 
-.reading:before {
+.interests__reading:before {
   content: "📚";
 }
-.interest-list {
+.interests__list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -80,7 +80,7 @@ footer {
   margin-left: 40px;
 }
 
-.fieldset-interests {
+.interests {
   border: none;
   display: flex;
   align-items: center;
@@ -105,7 +105,7 @@ footer {
   border: none;
 }
 
-.h2-my-interests {
+.interests__header {
   text-transform: uppercase;
   border: 3px solid black;
   text-align: center;
@@ -114,7 +114,7 @@ footer {
   border-radius: 10%;
 }
 
-.h2-contact-details {
+.contacts__header {
   text-transform: uppercase;
   border: 3px solid black;
   text-align: center;
@@ -140,7 +140,7 @@ footer {
   width: 100%;
 }
 
-.section-contact {
+.contacts__section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
