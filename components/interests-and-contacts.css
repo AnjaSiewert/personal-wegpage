@@ -6,8 +6,9 @@
 
 .interests__header {
   text-transform: uppercase;
-  border: 3px solid black;
+  border-bottom: 2px solid black;
   text-align: center;
+  margin-right: 2rem;
 }
 
 .interests__list {
@@ -44,8 +45,9 @@
 
 .contacts__header {
   text-transform: uppercase;
-  border: 3px solid black;
+  border-bottom: 2px solid black;
   text-align: center;
+  margin-right: 2rem;
 }
 
 .contacts__section {
