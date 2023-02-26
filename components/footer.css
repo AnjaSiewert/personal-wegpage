@@ -1,0 +1,10 @@
+.footer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: var(--lightgreen);
+  position: fixed;
+  bottom: -20px;
+  width: 100%;
+}

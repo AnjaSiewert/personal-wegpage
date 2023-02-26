@@ -3,25 +3,20 @@
 @import "components/header.css";
 @import "components/interests-and-contacts.css";
 @import "components/socials.css";
+@import "components/pictures.css";
+@import "components/footer.css";
 
 body {
   font-family: Optima, monospace;
-  background-color: rgb(166, 186, 247);
-  margin: auto;
-  font-size: 18px;
+  background-color: var(--grey);
+  font-size: 1.1rem;
   font-weight: normal;
   color: rgb(1, 9, 31);
-  width: 70%;
 }
 
 h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 2.5rem;
   text-transform: uppercase;
-}
-
-footer {
-  margin: 20px;
-  font-size: 20px;
-  text-align: center;
+  background-color: var(--lightgreen);
 }
